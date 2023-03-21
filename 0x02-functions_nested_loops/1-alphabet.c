@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /*
  * main - start of the program Entry point
  *
@@ -16,7 +16,7 @@ printf("%c", ch);
 printf("\n");
 ch++;
 }
-};
+}
 int main(void)
 {
 print_alphabet();
