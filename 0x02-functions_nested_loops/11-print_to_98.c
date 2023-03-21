@@ -5,7 +5,7 @@
  * @n: input
  * Return: 0
  */
-oid print_to_98(int n)
+void print_to_98(int n)
 {
 	int count;
 
