@@ -1,24 +1,15 @@
-#include<stdio.h>
-/*
- * main - start of the program Entry point
- *
- * Description: program that prints alphabet,
- * in lowercase, followed by a new line
- *
- * return: always 0 (Success)
+#include "main.h"
+/**
+ * print_alphabet - check lowercase
+ * Return: 0
 */
 void print_alphabet(void)
 {
 char ch = 'a';
 while (ch <= 'z')
 {
-printf("%c", ch);
-printf("\n");
+_putchar(ch);
+_putchar('\n');
 ch++;
 }
-}
-int main(void)
-{
-print_alphabet();
-return (0);
 }
