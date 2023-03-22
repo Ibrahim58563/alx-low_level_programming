@@ -2,6 +2,8 @@
 
 /**
 * main - causes an infinite loop
+* putchar - print digits
+* @i: input interger
 * Return: 0
 */
 
