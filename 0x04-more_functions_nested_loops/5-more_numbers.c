@@ -1,27 +1,23 @@
 #include "main.h"
 
 /**
- * more_numbers - print numbers from 0 to 14
- * Return: 0 (Success)
+ * more_numbers - nmbr fct
+ * Bwave ICT file
+ * Return: no return
  */
 
 void more_numbers(void)
 {
-int x;
-for (int j = 0; j < 10; j++)
-{
-for (int i = 0; i <= 14; i++)
-{
-x = i;
-if (i > 9)
-{
-putchar(1 + 48);
-x = i % 10;
-}
-putchar(x + 48);
-}
-putchar('\n');
-}
-}
 
-
+int i, j;
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
+		}
+			_putchar('\n');
+		}
+}
